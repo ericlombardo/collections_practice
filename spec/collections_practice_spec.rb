@@ -30,6 +30,12 @@ describe 'collections practice' do
     end
   end
 
+  # Question 4a
+  describe '#swap_elements)_from_to' do
+    it 'swap two elements using index from user input' do
+      expect(swap_elements_from_to(%w[apple bowl card den], 0, 3)).to eq %w[den bowl card apple]
+    end
+  end
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
